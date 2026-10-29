@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros - Sistema de Biblioteca</title>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}">
+</head>
+<body>
+
+    <header>
+        <h1>Sistema de Biblioteca</h1>
+        <p>Lista de Livros</p>
+    </header>
+
+    <nav>
+        <a th:href="@{/livros}">Livros</a>
+        <a th:href="@{/autores}">Autores</a>
+        <a href="#">Categorias</a>
+        <a href="#">Usuários</a>
+        <a href="#">Empréstimos</a>
+    </nav>
+
+    <main class="container">
+
+        
+
+
+
+
+<h2>Livros cadastrados:</h2>
+        <a th:href="@{/livros/novo}" class="botao">
+            Novo Livro
+        </a>
+        <hr>
+
+        <section class="livro-destaque">
+            
+
+            <p><strong>Título:</strong> Dom Casmurro</p>
+            <p><strong>Autor:</strong> Machado de Assis</p>
+            <p><strong>ISBN:</strong> 978-85-00-00000-0</p>
+            <p><strong>Ano de publicação:</strong> 1899</p>
+        </section>
+
+        <br>
+
+        
+
+    </main>
+
+</body>
+</html>

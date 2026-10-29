@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ea;
+    color: #2c2416;
+    line-height: 1.5;
+}
+
+.topo {
+    background-color: #5c3d2e;
+    color: #fff;
+    padding: 32px 24px;
+    text-align: center;
+}
+
+.topo h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.boas-vindas {
+    font-size: 1.1rem;
+}
+
+.menu {
+    background-color: #8b5e3c;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.menu a:hover {
+    background-color: #6f4a30;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 32px auto;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.livro {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+}
+
+.livro h2 {
+    margin-bottom: 12px;
+}
+
+.livro p {
+    margin-bottom: 8px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1eb;
+    color: #222;
+}
+
+header {
+    background-color: #5b3b2e;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 16px 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #8b5e3c;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 22px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.container hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 32px 0 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f1eb;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #5b3b2e;
+}
+
+.container form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.container form label {
+    font-size: 18px;
+}
+
+.container form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+.container form button {
+    padding: 10px 18px;
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container form button:hover {
+    background-color: #5b3b2e;
+}

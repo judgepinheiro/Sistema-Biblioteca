@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${livro.titulo}">Livro</title>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}">
+    <link rel="icon" type="image/png" th:href="@{/css/livro.png}">
+</head>
+<body>
+    <header class="topo">
+        <h1 th:text="${livro.titulo}">Título do livro</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a th:href="@{/livros}">Livros</a></li>
+            <li><a th:href="@{/autores}">Autores</a></li>
+            <li><a th:href="@{/categorias}">Categorias</a></li>
+            <li><a th:href="@{/usuarios}">Usuários</a></li>
+            <li><a th:href="@{/emprestimos}">Empréstimos</a></li>
+        </ul>
+    </nav>
+
+    <main class="conteudo">
+        <p><strong>Título:</strong> <span th:text="${livro.titulo}">Título</span></p>
+        <p><strong>Autor:</strong> <span th:text="${livro.autor}">Autor</span></p>
+        <p><strong>ISBN:</strong> <span th:text="${livro.isbn}">ISBN</span></p>
+        <p><strong>Ano de publicação:</strong> <span th:text="${livro.anoPublicacao}"></span></p>
+        <p><a th:href="@{/livros}">Voltar para Livros</a></p>
+    </main>
+</body>
+</html>
